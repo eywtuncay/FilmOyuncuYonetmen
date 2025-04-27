@@ -1,0 +1,87 @@
+﻿@model IEnumerable<TuncayAlbayrakMvcSinav.Models.ViewModels.Film.FilmListele_VM>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Ekle">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FilmId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sure)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ulke)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YapimYili)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YonetmenAd)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FilmId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sure)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ulke)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YapimYili)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YonetmenAd)
+            </td>
+
+                <td>
+                    @if (item.Oyuncular != null && item.Oyuncular.Any())
+                    {
+                        <ul>
+                            @foreach (var kategori in item.Oyuncular)
+                            {
+                                <li>@kategori</li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <span>Oyuncu Yok.</span>
+                    }
+                </td>
+
+
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.FilmId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.FilmId }) |
+                    <form asp-action="Delete" method="post" style="display:inline;" onsubmit="return confirm('Bu filmi silmek istediğinize emin misiniz?');">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@item.FilmId" />
+                        <button type="submit" class="btn btn-danger">Sil</button>
+                    </form>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

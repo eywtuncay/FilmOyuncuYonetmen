@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|c:\\users\\tuncay\\desktop\\b\u0130lge adam\\m\u00FCfredat\\mvc\\kendinotlar\u0131m\\sinav\\tuncayalbayrakmvcsinav\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|c:\\users\\tuncay\\desktop\\b\u0130lge adam\\m\u00FCfredat\\mvc\\kendinotlar\u0131m\\sinav\\tuncayalbayrakmvcsinav\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|c:\\users\\tuncay\\desktop\\b\u0130lge adam\\m\u00FCfredat\\mvc\\kendinotlar\u0131m\\sinav\\tuncayalbayrakmvcsinav\\mapperclasses\\projectmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|solutionrelative:mapperclasses\\projectmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|c:\\users\\tuncay\\desktop\\b\u0130lge adam\\m\u00FCfredat\\mvc\\kendinotlar\u0131m\\sinav\\tuncayalbayrakmvcsinav\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|solutionrelative:controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|c:\\users\\tuncay\\desktop\\b\u0130lge adam\\m\u00FCfredat\\mvc\\kendinotlar\u0131m\\sinav\\tuncayalbayrakmvcsinav\\models\\viewmodels\\film\\filmguncelle_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|solutionrelative:models\\viewmodels\\film\\filmguncelle_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|c:\\users\\tuncay\\desktop\\b\u0130lge adam\\m\u00FCfredat\\mvc\\kendinotlar\u0131m\\sinav\\tuncayalbayrakmvcsinav\\views\\film\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|solutionrelative:views\\film\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|c:\\users\\tuncay\\desktop\\b\u0130lge adam\\m\u00FCfredat\\mvc\\kendinotlar\u0131m\\sinav\\tuncayalbayrakmvcsinav\\not.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4B89E28C-9B1D-488F-A332-31A6CC79F21B}|TuncayAlbayrakMvcSinav.csproj|solutionrelative:not.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NOT.txt",
+              "DocumentMoniker": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\NOT.txt",
+              "RelativeDocumentMoniker": "NOT.txt",
+              "ToolTip": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\NOT.txt",
+              "RelativeToolTip": "NOT.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-27T12:38:55.013Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilmController.cs",
+              "DocumentMoniker": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\Controllers\\FilmController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilmController.cs",
+              "ToolTip": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\Controllers\\FilmController.cs",
+              "RelativeToolTip": "Controllers\\FilmController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwNMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:09:03.869Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwEgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T18:51:56.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:48:19.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\Views\\Film\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Film\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\Views\\Film\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Film\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T18:46:45.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FilmGuncelle_VM.cs",
+              "DocumentMoniker": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\Models\\ViewModels\\Film\\FilmGuncelle_VM.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\Film\\FilmGuncelle_VM.cs",
+              "ToolTip": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\Models\\ViewModels\\Film\\FilmGuncelle_VM.cs",
+              "RelativeToolTip": "Models\\ViewModels\\Film\\FilmGuncelle_VM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:46:20.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectMapper.cs",
+              "DocumentMoniker": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\MapperClasses\\ProjectMapper.cs",
+              "RelativeDocumentMoniker": "MapperClasses\\ProjectMapper.cs",
+              "ToolTip": "C:\\Users\\TUNCAY\\Desktop\\B\u0130LGE ADAM\\M\u00DCFREDAT\\MVC\\KendiNotlar\u0131m\\SINAV\\TuncayAlbayrakMvcSinav\\MapperClasses\\ProjectMapper.cs",
+              "RelativeToolTip": "MapperClasses\\ProjectMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:56:05.34Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

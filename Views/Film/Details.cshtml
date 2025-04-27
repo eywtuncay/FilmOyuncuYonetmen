@@ -1,0 +1,80 @@
+﻿@model TuncayAlbayrakMvcSinav.Models.ViewModels.Film.FilmDetay_VM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>FilmDetay_VM</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FilmId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FilmId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ad)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ad)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sure)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sure)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ulke)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ulke)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.YapimYili)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.YapimYili)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.YonetmenAd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.YonetmenAd)
+        </dd>
+
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Oyuncular)
+        </dt>
+        <dd class="col-sm-10">
+
+
+            @if (Model.Oyuncular != null && Model.Oyuncular.Any())
+            {
+                <ul>
+                    @foreach (var kategori in Model.Oyuncular)
+                    {
+                        <li>@kategori</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p>Oyuncu Yok.</p>
+            }
+
+        </dd>
+
+
+
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

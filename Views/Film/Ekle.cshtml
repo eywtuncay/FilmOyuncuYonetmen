@@ -1,0 +1,66 @@
+﻿@model TuncayAlbayrakMvcSinav.Models.ViewModels.Film.FilmEklemeFormu_VM
+
+@{
+    ViewData["Title"] = "Ekle";
+}
+
+<h1>Ekle</h1>
+
+<h4>FilmEkle_VM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Ekle">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Film.Ad" class="control-label"></label>
+                <input asp-for="Film.Ad" class="form-control" />
+                <span asp-validation-for="Film.Ad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Film.Sure" class="control-label"></label>
+                <input asp-for="Film.Sure" class="form-control" />
+                <span asp-validation-for="Film.Sure" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Film.Ulke" class="control-label"></label>
+                <input asp-for="Film.Ulke" class="form-control" />
+                <span asp-validation-for="Film.Ulke" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Film.YapimYili" class="control-label"></label>
+                <input asp-for="Film.YapimYili" class="form-control" />
+                <span asp-validation-for="Film.YapimYili" class="text-danger"></span>
+            </div>
+
+            <!-- Oyuncular için Checkbox Listesi -->
+            <div class="form-group">
+                <label>Oyuncular</label>
+                @foreach (var oyuncu in Model.TumOyuncular)
+                {
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input"
+                               name="SelectedOyuncuIds"
+                               value="@oyuncu.OyuncuId"
+                               id="kategori_@oyuncu.OyuncuId" />
+                        <label class="form-check-label" for="kategori_@oyuncu.OyuncuId">
+                            @oyuncu.Ad
+                        </label>
+                    </div>
+                }
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,26 @@
+
+
+
+
+Film	- Oyuncu	- Yönetmen
+
+
+
+Bir yönetmen birden fazla Film ekleyebilir
+Bir filmde birden fazla oyuncu olabilir
+
+Yönetmen - Film		--> 1-N
+Film - Oyuncu		--> N-N
+
+
+Yönetmen (UserTable)
+Oyuncu
+Film
+FilmOYuncu
+
+
+
+YönetmenTable --> Ad, Soyad, Doðum Tarihi
+FilmTable --> Ad, Yapým Yýlý, Süre, Ülke
+OyuncuTable --> Ad, Soyad, Doðum Tarihi, Cinsiyet
+
